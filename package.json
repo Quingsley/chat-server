@@ -1,0 +1,39 @@
+{
+  "name": "chat-server",
+  "version": "1.0.0",
+  "description": "A socket.io server implementing a chat app",
+  "main": "index.ts",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --transpile-only --no-notify src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Quingsley/chat-server.git"
+  },
+  "keywords": [
+    "socket.io",
+    "node.js",
+    "chat",
+    "typescript"
+  ],
+  "author": "Jerome Jumah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quingsley/chat-server/issues"
+  },
+  "homepage": "https://github.com/Quingsley/chat-server#readme",
+  "devDependencies": {
+    "@types/node": "^20.6.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "arrowParens": "avoid"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.2"
+  }
+}
