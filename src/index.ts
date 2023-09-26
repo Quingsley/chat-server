@@ -1,13 +1,21 @@
 import { Server } from "socket.io";
 import { createServer } from "http";
+import { createUserHandler, getUserContacts } from "./handlers";
 
 const httpsServer = createServer();
-const io = new Server(httpsServer, {});
+const io = new Server(httpsServer, {
+  connectionStateRecovery: {
+    maxDisconnectionDuration: 2 * 60 * 1000,
+  },
+});
+
 io.on("connection", socket => {
-  console.log("a user connected");
-  socket.on("disconnect", () => {
-    console.log("user disconnected");
-  });
+  console.log(`a user connected with id ${socket.id}`);
+
+  socket.on("createUser", createUserHandler);
+
+  socket.on("get-contacts", getUserContacts);
+
   socket.on("typing", data => {
     console.log(data);
     io.emit("typing", data);
@@ -19,7 +27,6 @@ io.on("connection", socket => {
   });
   socket.on("disconnect", () => {
     console.log("client disconnect...", socket.id);
-    // handleDisconnect()
   });
 
   socket.on("error", err => {
