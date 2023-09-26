@@ -1,8 +1,14 @@
-import { Server } from "socket.io";
+import express, { NextFunction, Request, Response } from "express";
 import { createServer } from "http";
-import { createUserHandler, getUserContacts } from "./handlers";
+import { Server } from "socket.io";
+import { router } from "./routes";
+import { CustomError } from "./types";
 
-const httpsServer = createServer();
+const app = express();
+app.use(express.json());
+app.use(router);
+
+const httpsServer = createServer(app);
 const io = new Server(httpsServer, {
   connectionStateRecovery: {
     maxDisconnectionDuration: 2 * 60 * 1000,
@@ -11,10 +17,6 @@ const io = new Server(httpsServer, {
 
 io.on("connection", socket => {
   console.log(`a user connected with id ${socket.id}`);
-
-  socket.on("createUser", createUserHandler);
-
-  socket.on("get-contacts", getUserContacts);
 
   socket.on("typing", data => {
     console.log(data);
@@ -33,6 +35,11 @@ io.on("connection", socket => {
     console.log("received error from client:", socket.id);
     console.log(err);
   });
+});
+
+app.use((err: any, req: Request, res: Response, next: NextFunction): void => {
+  console.error(err);
+  res.status(err.status || 500).json({ data: err.message });
 });
 
 httpsServer.listen(3000, () => {

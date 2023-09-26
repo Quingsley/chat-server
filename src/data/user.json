@@ -1,29 +1,8 @@
 [
   {
-    "name": "quingsley",
-    "email": "quingsleykali@gmail.com",
-    "id": "17e4da06-2c40-4606-ac59-337f3588ca2b",
-    "contacts": [],
-    "chats": []
-  },
-  {
-    "name": "Jerome",
-    "email": "jeromejuma25@gmail.com",
-    "id": "1db9d8d7-3442-4614-a46e-9d2b9eaf5c59",
-    "contacts": [],
-    "chats": []
-  },
-  {
-    "name": "Testing",
-    "email": "tst01012000@gmail.com",
-    "id": "a6172ad7-e69e-499d-8471-963f0d73a437",
-    "contacts": [],
-    "chats": []
-  },
-  {
-    "name": "Jerome",
-    "email": "quingsley@hotmail.com",
-    "id": "32d2739f-b59b-4816-b7f0-f9cca72bc79f",
+    "userName": "Tesla",
+    "email": "test@test.com",
+    "userId": "2b0bc65a-35f5-490e-a833-d0d996a8f0b6",
     "contacts": [],
     "chats": []
   }

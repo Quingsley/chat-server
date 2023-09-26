@@ -4,9 +4,9 @@ export type IncomingUIUser = {
   userId: string;
 };
 export interface User {
-  name: string;
+  userName: string;
   email: string;
-  id: string;
+  userId: string;
   contacts: Contacts[];
   chats: Chats[];
 }
@@ -27,4 +27,14 @@ export interface Chats {
   sentAt: string;
   receivedAt: string;
   isRead: boolean;
+}
+
+export class CustomError extends Error {
+  message: string;
+  status: number;
+  constructor(msg: string, status: number) {
+    super(msg);
+    this.message = msg;
+    this.status = status;
+  }
 }
