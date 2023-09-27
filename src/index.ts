@@ -2,6 +2,7 @@ import express, { NextFunction, Request, Response } from "express";
 import { createServer } from "http";
 import { Server } from "socket.io";
 import { router } from "./routes";
+import { socketHandler } from "./socket";
 import { CustomError } from "./types";
 
 const app = express();
@@ -15,31 +16,17 @@ const io = new Server(httpsServer, {
   },
 });
 
-io.on("connection", socket => {
-  console.log(`a user connected with id ${socket.id}`);
-
-  socket.on("typing", data => {
-    console.log(data);
-    io.emit("typing", data);
-  });
-
-  socket.on("message", data => {
-    console.log(data);
-    io.emit("message", data);
-  });
-  socket.on("disconnect", () => {
-    console.log("client disconnect...", socket.id);
-  });
-
-  socket.on("error", err => {
-    console.log("received error from client:", socket.id);
-    console.log(err);
-  });
-});
+io.on("connection", socket => socketHandler(socket, io));
 
 app.use((err: any, req: Request, res: Response, next: NextFunction): void => {
   console.error(err);
-  res.status(err.status || 500).json({ data: err.message });
+  let message = "Internal server error";
+  let status = 500;
+  if (err instanceof CustomError) {
+    message = err.message;
+    status = err.status;
+  }
+  res.status(status).json({ data: message });
 });
 
 httpsServer.listen(3000, () => {

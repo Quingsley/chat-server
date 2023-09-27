@@ -4,6 +4,7 @@ export type IncomingUIUser = {
   userId: string;
 };
 export interface User {
+  type: "private" | "public";
   userName: string;
   email: string;
   userId: string;

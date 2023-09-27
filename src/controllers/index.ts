@@ -10,6 +10,7 @@ export async function signUp(req: Request, res: Response, next: NextFunction) {
     userId: userId,
     contacts: [],
     chats: [],
+    type: "private",
   };
 
   try {
