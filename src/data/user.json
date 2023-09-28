@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "userName": "test",
+    "email": "test@test.com",
+    "userId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+    "contacts": [
+      {
+        "userId": "7caee82feb5de7f6d79e"
+      }
+    ],
+    "chats": [],
+    "type": "private"
+  },
+  {
+    "type": "public",
+    "userName": "Group A",
+    "email": "group@group.com",
+    "userId": "7caee82feb5de7f6d79e",
+    "contacts": [
+      {
+        "userId": "549bbfff-d69f-46d6-80fd-9af4de80917a"
+      }
+    ],
+    "chats": []
+  }
+]

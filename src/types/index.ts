@@ -9,7 +9,7 @@ export interface User {
   email: string;
   userId: string;
   contacts: Contacts[];
-  chats: Chats[];
+  chats: Chat[];
 }
 
 export enum Status {
@@ -20,7 +20,8 @@ export type Ack<T> = (data: { status: Status; message: string; data: T }) => voi
 
 export type Contacts = { userId: string };
 
-export interface Chats {
+export interface Chat {
+  messageLabel: string;
   chatId: string;
   message: string;
   senderId: string;

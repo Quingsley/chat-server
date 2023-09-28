@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response } from "express";
 import { User } from "../types";
-import { createUserHandler, getUserContactsHandler, getUserHandler } from "../handlers";
+import { createUserHandler, getUserContactsHandler, getUserHandler, addContactHandler } from "../handlers";
 
 export async function signUp(req: Request, res: Response, next: NextFunction) {
   const { userName, email, userId } = req.body;
@@ -53,6 +53,18 @@ export async function userContacts(req: Request, res: Response, next: NextFuncti
     res.status(200).json({
       contacts: contacts,
     });
+  } catch (error) {
+    next(error);
+  }
+}
+
+export async function addContact(req: Request, res: Response, next: NextFunction) {
+  try {
+    const { userEmail, newContactEmail } = req.body;
+    if (userEmail === newContactEmail)
+      return res.status(422).json({ message: "New contact cannot be the same as your email" });
+    await addContactHandler(userEmail, newContactEmail);
+    return res.status(201).json({ message: "contact added successfully" });
   } catch (error) {
     next(error);
   }

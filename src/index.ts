@@ -4,8 +4,10 @@ import { Server } from "socket.io";
 import { router } from "./routes";
 import { socketHandler } from "./socket";
 import { CustomError } from "./types";
+import cors from "cors";
 
 const app = express();
+app.use(cors());
 app.use(express.json());
 app.use(router);
 
