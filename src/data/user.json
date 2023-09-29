@@ -6,6 +6,15 @@
     "contacts": [
       {
         "userId": "7caee82feb5de7f6d79e"
+      },
+      {
+        "userId": "de0de7bf-9f9b-4b09-9541-4891acc939a3"
+      },
+      {
+        "userId": "772b759e-e2d2-44c2-8803-bd7503de0b9e"
+      },
+      {
+        "userId": "d3fc9309-593f-46e5-bdbe-38f2d1ca1121"
       }
     ],
     "chats": [],
@@ -19,8 +28,74 @@
     "contacts": [
       {
         "userId": "549bbfff-d69f-46d6-80fd-9af4de80917a"
+      },
+      {
+        "userId": "de0de7bf-9f9b-4b09-9541-4891acc939a3"
+      },
+      {
+        "userId": "772b759e-e2d2-44c2-8803-bd7503de0b9e"
+      },
+      {
+        "userId": "d3fc9309-593f-46e5-bdbe-38f2d1ca1121"
       }
     ],
     "chats": []
+  },
+  {
+    "userName": "quingsley",
+    "email": "quingsley@hotmail.com",
+    "userId": "de0de7bf-9f9b-4b09-9541-4891acc939a3",
+    "contacts": [
+      {
+        "userId": "7caee82feb5de7f6d79e"
+      },
+      {
+        "userId": "549bbfff-d69f-46d6-80fd-9af4de80917a"
+      },
+      {
+        "userId": "772b759e-e2d2-44c2-8803-bd7503de0b9e"
+      },
+      {
+        "userId": "d3fc9309-593f-46e5-bdbe-38f2d1ca1121"
+      }
+    ],
+    "chats": [],
+    "type": "private"
+  },
+  {
+    "userName": "west",
+    "email": "west@west.com",
+    "userId": "772b759e-e2d2-44c2-8803-bd7503de0b9e",
+    "contacts": [
+      {
+        "userId": "7caee82feb5de7f6d79e"
+      },
+      {
+        "userId": "549bbfff-d69f-46d6-80fd-9af4de80917a"
+      },
+      {
+        "userId": "de0de7bf-9f9b-4b09-9541-4891acc939a3"
+      }
+    ],
+    "chats": [],
+    "type": "private"
+  },
+  {
+    "userName": "hello",
+    "email": "hello@hello.com",
+    "userId": "d3fc9309-593f-46e5-bdbe-38f2d1ca1121",
+    "contacts": [
+      {
+        "userId": "7caee82feb5de7f6d79e"
+      },
+      {
+        "userId": "549bbfff-d69f-46d6-80fd-9af4de80917a"
+      },
+      {
+        "userId": "de0de7bf-9f9b-4b09-9541-4891acc939a3"
+      }
+    ],
+    "chats": [],
+    "type": "private"
   }
 ]

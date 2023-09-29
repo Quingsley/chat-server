@@ -5,14 +5,14 @@ import { chatHandler } from "./handlers/chat-handler";
 
 export async function socketHandler(socket: Socket, io: Server) {
   console.log(`a user connected with id ${socket.id}`);
-
   const group = await getGroupId();
   if (group) socket.join(group.userId);
 
   socket.on("chat", async (data: Chat, cb: Ack<Chat>) => chatHandler(io, data, cb));
 
-  socket.on("typing", data => {
+  socket.on("new-contact", data => {
     console.log(data);
+    socket.emit("new-contact-added", "Refresh your contacts"); // helps connected clients to refresh their contacts
   });
 
   socket.on("message", data => {
