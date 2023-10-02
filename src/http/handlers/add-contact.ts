@@ -34,17 +34,7 @@ export async function addContactHandler(userEmail: string, newContactEmail: stri
     users[newContactIndex] = newContact;
 
     await writeToFile(PATH, users);
-    await createRoom(currentUser.userId, newContact.userId);
   } catch (error) {
     throw error;
   }
-}
-
-async function createRoom(userId1: string, userId2: string) {
-  const roomName = `${userId1}-${userId2}`;
-  const rooms = await readFile<string[]>(ROOM_PATH);
-  const isRoomAvailable = rooms.find(r => r == roomName);
-  if (isRoomAvailable) return;
-  rooms.push(roomName);
-  await writeToFile(ROOM_PATH, rooms);
 }

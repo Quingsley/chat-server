@@ -1,6 +1,7 @@
 import { Server } from "socket.io";
 import { socketHandler } from "./socket";
 import { httpsServer } from "./http";
+import { authMiddleware } from "./socket/middlewares";
 
 const io = new Server(httpsServer, {
   connectionStateRecovery: {
@@ -8,6 +9,7 @@ const io = new Server(httpsServer, {
   },
 });
 
+io.use(authMiddleware);
 io.on("connection", socket => socketHandler(socket, io));
 
 httpsServer.listen(3000, () => {

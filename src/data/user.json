@@ -8,16 +8,101 @@
         "userId": "7caee82feb5de7f6d79e"
       },
       {
-        "userId": "de0de7bf-9f9b-4b09-9541-4891acc939a3"
-      },
-      {
-        "userId": "772b759e-e2d2-44c2-8803-bd7503de0b9e"
-      },
-      {
-        "userId": "d3fc9309-593f-46e5-bdbe-38f2d1ca1121"
+        "userId": "92ed4117-6938-41c1-8aab-ea50ada692cb"
       }
     ],
-    "chats": [],
+    "chats": [
+      {
+        "messageLabel": "quingsley",
+        "chatId": "cd41b087-6d55-4312-a40c-77ac82ddfd0e",
+        "message": "Hello",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "sentAt": "2023-10-02T16:44:04.137",
+        "receivedAt": "2023-10-02T16:44:04.155Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "test",
+        "chatId": "db3daf68-0f1e-4350-8dfe-8ab0843ca49a",
+        "message": "Yooh quingsley",
+        "senderId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "recipientId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "sentAt": "2023-10-02T17:03:35.154692",
+        "receivedAt": "2023-10-02T17:03:35.162Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "0ac6c0ae-acc4-4f63-80c4-f5941becc611",
+        "message": "foster",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "sentAt": "2023-10-02T17:09:23.615",
+        "receivedAt": "2023-10-02T17:09:23.630Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "e2f40c94-c9b0-42e3-9b99-0d5e67e22d68",
+        "message": "",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "sentAt": "2023-10-02T17:09:35.859",
+        "receivedAt": "2023-10-02T17:09:35.864Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "test",
+        "chatId": "be41376b-1331-4bc4-963f-3bc3f2cc0718",
+        "message": "suuu",
+        "senderId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "recipientId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "sentAt": "2023-10-02T17:09:49.136381",
+        "receivedAt": "2023-10-02T17:09:49.155Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "test",
+        "chatId": "334eb1f0-9e11-4532-99ac-5504b640e015",
+        "message": "Class at 6 pm",
+        "senderId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "recipientId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "sentAt": "2023-10-02T17:15:39.460709",
+        "receivedAt": "2023-10-02T17:15:39.464Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "7ffb362c-e9f1-4959-a860-b4a8a51805ac",
+        "message": "Babosa",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "sentAt": "2023-10-02T17:16:46.176",
+        "receivedAt": "2023-10-02T17:16:46.184Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "82634930-3e56-4ccf-80af-108ce04f66b4",
+        "message": "fluctuating",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "sentAt": "2023-10-02T17:20:29.553",
+        "receivedAt": "2023-10-02T17:20:29.605Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "9234dbb9-4dd9-46d5-9447-858aacf76e05",
+        "message": "forshow",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "sentAt": "2023-10-02T17:50:29.438",
+        "receivedAt": "2023-10-02T17:50:29.447Z",
+        "isRead": false
+      }
+    ],
     "type": "private"
   },
   {
@@ -30,72 +115,236 @@
         "userId": "549bbfff-d69f-46d6-80fd-9af4de80917a"
       },
       {
-        "userId": "de0de7bf-9f9b-4b09-9541-4891acc939a3"
-      },
-      {
-        "userId": "772b759e-e2d2-44c2-8803-bd7503de0b9e"
-      },
-      {
-        "userId": "d3fc9309-593f-46e5-bdbe-38f2d1ca1121"
+        "userId": "92ed4117-6938-41c1-8aab-ea50ada692cb"
       }
     ],
-    "chats": []
+    "chats": [
+      {
+        "messageLabel": "test",
+        "chatId": "d7c1dc7d-c78f-47a2-b441-ab980f8ec20b",
+        "message": "Welcome to the group",
+        "senderId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "recipientId": "7caee82feb5de7f6d79e",
+        "sentAt": "2023-10-02T16:46:07.636960",
+        "receivedAt": "2023-10-02T16:46:07.664Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "120e2427-c4cb-40bb-b23f-504804ab7639",
+        "message": "Yooh",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "7caee82feb5de7f6d79e",
+        "sentAt": "2023-10-02T16:46:20.940",
+        "receivedAt": "2023-10-02T16:46:20.953Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "7fa196e4-417d-48b9-ab88-8a2437738313",
+        "message": "How are you",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "7caee82feb5de7f6d79e",
+        "sentAt": "2023-10-02T16:56:37.496",
+        "receivedAt": "2023-10-02T16:56:37.510Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "test",
+        "chatId": "fcdd633f-1667-4f0f-8b2f-fae16a406044",
+        "message": "I am fine",
+        "senderId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "recipientId": "7caee82feb5de7f6d79e",
+        "sentAt": "2023-10-02T16:56:55.775967",
+        "receivedAt": "2023-10-02T16:56:55.809Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "d48a50d0-947c-47d1-abd8-c3794d3acbd0",
+        "message": "Testing",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "7caee82feb5de7f6d79e",
+        "sentAt": "2023-10-02T17:13:24.957",
+        "receivedAt": "2023-10-02T17:13:24.972Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "7763b021-9113-4240-8854-f936123484e8",
+        "message": "Working",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "7caee82feb5de7f6d79e",
+        "sentAt": "2023-10-02T17:13:43.480",
+        "receivedAt": "2023-10-02T17:13:43.490Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "test",
+        "chatId": "e03b9f1f-35c8-473c-9b0b-fe7105ec9143",
+        "message": "fff",
+        "senderId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "recipientId": "7caee82feb5de7f6d79e",
+        "sentAt": "2023-10-02T17:14:30.908749",
+        "receivedAt": "2023-10-02T17:14:30.926Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "aefec818-0ad8-4d87-884a-5bf3b12f921c",
+        "message": "Voo",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "7caee82feb5de7f6d79e",
+        "sentAt": "2023-10-02T17:14:44.300",
+        "receivedAt": "2023-10-02T17:14:44.308Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "test",
+        "chatId": "bc523096-bd8a-4293-ad24-78de3d1a7661",
+        "message": "Boa",
+        "senderId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "recipientId": "7caee82feb5de7f6d79e",
+        "sentAt": "2023-10-02T17:14:53.162143",
+        "receivedAt": "2023-10-02T17:14:53.168Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "c863a29a-d038-4b66-8d6e-aff684ca9722",
+        "message": "Entanglement",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "7caee82feb5de7f6d79e",
+        "sentAt": "2023-10-02T17:15:14.000",
+        "receivedAt": "2023-10-02T17:15:14.010Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "test",
+        "chatId": "5a193b9e-47e4-4279-bde7-c16f4d8bc9b6",
+        "message": "faith",
+        "senderId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "recipientId": "7caee82feb5de7f6d79e",
+        "sentAt": "2023-10-02T17:19:49.965908",
+        "receivedAt": "2023-10-02T17:19:49.970Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "test",
+        "chatId": "702cc50b-f069-4404-943a-6d1daa52ed7b",
+        "message": "doo",
+        "senderId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "recipientId": "7caee82feb5de7f6d79e",
+        "sentAt": "2023-10-02T18:27:20.927209",
+        "receivedAt": "2023-10-02T18:27:20.944Z",
+        "isRead": false
+      }
+    ]
   },
   {
     "userName": "quingsley",
     "email": "quingsley@hotmail.com",
-    "userId": "de0de7bf-9f9b-4b09-9541-4891acc939a3",
+    "userId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
     "contacts": [
       {
         "userId": "7caee82feb5de7f6d79e"
       },
       {
         "userId": "549bbfff-d69f-46d6-80fd-9af4de80917a"
-      },
-      {
-        "userId": "772b759e-e2d2-44c2-8803-bd7503de0b9e"
-      },
-      {
-        "userId": "d3fc9309-593f-46e5-bdbe-38f2d1ca1121"
       }
     ],
-    "chats": [],
-    "type": "private"
-  },
-  {
-    "userName": "west",
-    "email": "west@west.com",
-    "userId": "772b759e-e2d2-44c2-8803-bd7503de0b9e",
-    "contacts": [
+    "chats": [
       {
-        "userId": "7caee82feb5de7f6d79e"
+        "messageLabel": "quingsley",
+        "chatId": "cd41b087-6d55-4312-a40c-77ac82ddfd0e",
+        "message": "Hello",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "sentAt": "2023-10-02T16:44:04.137",
+        "receivedAt": "2023-10-02T16:44:04.155Z",
+        "isRead": false
       },
       {
-        "userId": "549bbfff-d69f-46d6-80fd-9af4de80917a"
+        "messageLabel": "test",
+        "chatId": "db3daf68-0f1e-4350-8dfe-8ab0843ca49a",
+        "message": "Yooh quingsley",
+        "senderId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "recipientId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "sentAt": "2023-10-02T17:03:35.154692",
+        "receivedAt": "2023-10-02T17:03:35.162Z",
+        "isRead": false
       },
       {
-        "userId": "de0de7bf-9f9b-4b09-9541-4891acc939a3"
+        "messageLabel": "quingsley",
+        "chatId": "0ac6c0ae-acc4-4f63-80c4-f5941becc611",
+        "message": "foster",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "sentAt": "2023-10-02T17:09:23.615",
+        "receivedAt": "2023-10-02T17:09:23.630Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "e2f40c94-c9b0-42e3-9b99-0d5e67e22d68",
+        "message": "",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "sentAt": "2023-10-02T17:09:35.859",
+        "receivedAt": "2023-10-02T17:09:35.864Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "test",
+        "chatId": "be41376b-1331-4bc4-963f-3bc3f2cc0718",
+        "message": "suuu",
+        "senderId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "recipientId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "sentAt": "2023-10-02T17:09:49.136381",
+        "receivedAt": "2023-10-02T17:09:49.155Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "test",
+        "chatId": "334eb1f0-9e11-4532-99ac-5504b640e015",
+        "message": "Class at 6 pm",
+        "senderId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "recipientId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "sentAt": "2023-10-02T17:15:39.460709",
+        "receivedAt": "2023-10-02T17:15:39.464Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "7ffb362c-e9f1-4959-a860-b4a8a51805ac",
+        "message": "Babosa",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "sentAt": "2023-10-02T17:16:46.176",
+        "receivedAt": "2023-10-02T17:16:46.184Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "82634930-3e56-4ccf-80af-108ce04f66b4",
+        "message": "fluctuating",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "sentAt": "2023-10-02T17:20:29.553",
+        "receivedAt": "2023-10-02T17:20:29.605Z",
+        "isRead": false
+      },
+      {
+        "messageLabel": "quingsley",
+        "chatId": "9234dbb9-4dd9-46d5-9447-858aacf76e05",
+        "message": "forshow",
+        "senderId": "92ed4117-6938-41c1-8aab-ea50ada692cb",
+        "recipientId": "549bbfff-d69f-46d6-80fd-9af4de80917a",
+        "sentAt": "2023-10-02T17:50:29.438",
+        "receivedAt": "2023-10-02T17:50:29.447Z",
+        "isRead": false
       }
     ],
-    "chats": [],
-    "type": "private"
-  },
-  {
-    "userName": "hello",
-    "email": "hello@hello.com",
-    "userId": "d3fc9309-593f-46e5-bdbe-38f2d1ca1121",
-    "contacts": [
-      {
-        "userId": "7caee82feb5de7f6d79e"
-      },
-      {
-        "userId": "549bbfff-d69f-46d6-80fd-9af4de80917a"
-      },
-      {
-        "userId": "de0de7bf-9f9b-4b09-9541-4891acc939a3"
-      }
-    ],
-    "chats": [],
     "type": "private"
   }
 ]

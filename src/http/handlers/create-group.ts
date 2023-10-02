@@ -5,7 +5,7 @@ import { readFile } from "../../utils";
 
 export async function createGroupHandler() {
   const existingUsers = await readFile<User[]>(PATH);
-  const defaultUser = existingUsers.find(user => user.email === "group@group.com");
+  const defaultUser = existingUsers.find(user => user.email === GROUP_EMAIL);
   if (!defaultUser) {
     const defaultGroup: User = {
       type: "public",

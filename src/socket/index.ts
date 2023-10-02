@@ -6,18 +6,16 @@ import { chatHandler } from "./handlers/chat-handler";
 export async function socketHandler(socket: Socket, io: Server) {
   console.log(`a user connected with id ${socket.id}`);
   const group = await getGroupId();
+
   if (group) socket.join(group.userId);
 
   socket.on("chat", async (data: Chat, cb: Ack<Chat>) => chatHandler(io, data, cb));
 
-  socket.on("new-contact", data => {
+  socket.on("join", data => {
     console.log(data);
-    socket.emit("new-contact-added", "Refresh your contacts"); // helps connected clients to refresh their contacts
+    socket.broadcast.emit("new-contact-added", "Refresh your contacts"); // helps connected clients to refresh their contacts // but need to figure out how to send to only the recipient
   });
 
-  socket.on("message", data => {
-    console.log(data);
-  });
   socket.on("disconnect", reason => {
     console.log(`client ${socket.id} disconnected because ${reason}`);
   });
